@@ -1,0 +1,12 @@
+name: bluebird
+version: "0.1.0"
+author: vedranvinko <vinkovedran@gmail.com>
+about: Validate GitLab env variables
+args:
+  - filename:
+      short: f
+      long: filename
+      default_value: .gitlab-ci.yaml
+      takes_value: true
+      value_name: filename
+      help: Specify a CI file
